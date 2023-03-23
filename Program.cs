@@ -10,6 +10,8 @@ System.Console.Write("Enter the age of Kescha:");
 string ageAsString1 = Console.ReadLine();
 int ageKescha = Convert.ToInt32(ageAsString1);
 System.Console.WriteLine($"{name} is older than Kescha {age>ageKescha}");
-
-
-
+System.Console.WriteLine($"{name} is younger than Kescha {age<ageKescha}");
+System.Console.WriteLine($"Coveral with {name} Kescha {age==ageKescha}");
+System.Console.WriteLine($"{name} Kescha bilan tengdosh emas. {age!=ageKescha}");
+System.Console.WriteLine($"{name} is older than or equal Kescha {age>=ageKescha}");
+System.Console.WriteLine($"{name} is younger than or equal Kescha {age<=ageKescha}");
